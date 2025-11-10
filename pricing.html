@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Planes y precios — CoopSys</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/pricing.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">CoopSys<span class="accent">CECYTEA</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="features.html" class="nav-link">Características</a>
+        <a href="pricing.html" class="nav-link active">Precios</a>
+        <a href="contact.html" class="nav-link">Contacto</a>
+      </nav>
+      <a class="btn btn-primary" href="contact.html">Solicitar demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container pricing-intro">
+      <h1>Planes pensados para cooperativas</h1>
+      <p>Escoge el plan que mejor se adapta al tamaño y necesidad de tu cooperativa.</p>
+    </section>
+
+    <section class="pricing-grid container">
+      <div class="price-card">
+        <h3>Básico</h3>
+        <p class="price">$0<span>/prueba</span></p>
+        <ul>
+          <li>Inventario básico</li>
+          <li>1 usuario</li>
+          <li>Soporte por email</li>
+        </ul>
+        <a class="btn btn-outline" href="contact.html">Probar</a>
+      </div>
+      <div class="price-card featured">
+        <h3>Estándar</h3>
+        <p class="price">$199<span>/mes</span></p>
+        <ul>
+          <li>Todo en básico</li>
+          <li>Usuarios ilimitados</li>
+          <li>Reportes avanzados</li>
+        </ul>
+        <a class="btn btn-primary" href="contact.html">Contratar</a>
+      </div>
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">A medida</p>
+        <ul>
+          <li>Implementación y capacitación</li>
+          <li>Integraciones</li>
+          <li>Soporte prioritario</li>
+        </ul>
+        <a class="btn btn-outline" href="contact.html">Cotizar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="yearp"></span> CoopSys CECYTEA</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('yearp').textContent = new Date().getFullYear();</script>
+</body>
+</html>

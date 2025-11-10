@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto — CoopSys</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">CoopSys<span class="accent">CECYTEA</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="features.html" class="nav-link">Características</a>
+        <a href="pricing.html" class="nav-link">Precios</a>
+        <a href="contact.html" class="nav-link active">Contacto</a>
+      </nav>
+      <a class="btn btn-primary" href="contact.html">Solicitar demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container contact-intro">
+      <h1>Solicita una demostración</h1>
+      <p>Déjanos tus datos y nos pondremos en contacto para darte acceso a la demo.</p>
+    </section>
+
+    <section class="container contact-form">
+      <form action="#" method="post" onsubmit="alert('Formulario de ejemplo — reemplaza la acción por tu endpoint'); return false;">
+        <div class="form-row">
+          <label>Nombre</label>
+          <input type="text" required placeholder="Nombre completo">
+        </div>
+        <div class="form-row">
+          <label>Correo</label>
+          <input type="email" required placeholder="correo@ejemplo.com">
+        </div>
+        <div class="form-row">
+          <label>Institución / Cooperativa</label>
+          <input type="text" placeholder="Nombre de la cooperativa">
+        </div>
+        <div class="form-row">
+          <label>Mensaje</label>
+          <textarea placeholder="Cuéntanos qué necesitas" rows="5"></textarea>
+        </div>
+        <div class="form-row">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="yearc"></span> CoopSys CECYTEA</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('yearc').textContent = new Date().getFullYear();</script>
+</body>
+</html>
